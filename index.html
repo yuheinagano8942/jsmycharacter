@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Character Checker</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="stage">
+    <div id="cards">
+      <div class="card">
+        <div class="left-side">
+          <img src="img/unknown.gif" width="160" height="210">
+        </div>
+        <div class="right-side">
+          <h1><img src="img/logo.png" width="190" height="60"></h1>
+          <input type="text" id="user_name" placeholder="名前を教えてください">
+          <div id="check" class="btn">診断する？</div>
+        </div>
+      </div>
+      <div class="card">
+        <div id="result_img" class="left-side">
+          <img src="img/unknown.gif" width="160" height="210">
+        </div>
+        <div class="right-side">
+          <p>
+            <span id="result_name">名前</span>さんは...<br>
+            <span id="result_msg">メッセージ</span>...
+            <span id="result_job">職業</span>...!!!<br>
+            <span id="result_type">属性</span>...!!!
+          </p>
+          <a href="" id="tweet" class="btn" target="_blank">
+            結果をツイートする！
+          </a>
+          <p id="retry">
+            もう一度診断する？
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
